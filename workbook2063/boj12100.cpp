@@ -36,11 +36,6 @@ public:
             board[i][n+1] = 3;
         }
     }
-    Board(const Board& old):n(old.n){
-        for(int i = 0; i <= n+1; i++){
-            memcpy(board[i], old.board[i], sizeof(int)*(n+2));
-        }
-    }
     int getBoard(IP coo) const{
         return board[coo.first][coo.second];
     }
