@@ -4,8 +4,8 @@ typedef long long ll;
 const ll DIV = 1000000007;  //111011100110101100101000000111
 const int LEN = 30; 
 
-ll n_fact[40000001] = {0, }; 
-ll n_iv_fact[40000001] = {0, }; 
+ll n_fact[4000001] = {0, }; 
+ll n_iv_fact[4000001] = {0, }; 
 int idx = 1; 
 int iv_idx = 1; 
 
