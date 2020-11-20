@@ -26,10 +26,7 @@ int main(){
     int size = static_cast<int>(pow(N, S)); 
     for(int r = R1; r <= R2; r++){
         for(int c = C1; c <= C2 ; c++){
-            if(size <= r || size <= c)
-                cout << 0; 
-            else 
-                cout << getColor(size, r, c); 
+            cout << getColor(size, r, c); 
         }
         cout << "\n"; 
     }
